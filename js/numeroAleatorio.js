@@ -30,7 +30,6 @@ function generarNumeroAleatorio() {
                 numeroIntentos - intentos
                 } intentos. El numero que buscas es menor a ${numero}`;
             }
-            
         }
 
         intentos++;
