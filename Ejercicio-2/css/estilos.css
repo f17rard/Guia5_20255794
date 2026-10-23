@@ -1,0 +1,94 @@
+:root {
+  --cafe-oscuro: #4b2e1e;
+  --cafe-medio: #8b5a3c;
+  --cafe-claro: #d9b99b;
+  --crema: #faf3ea;
+  --acento: #1f1e33;
+}
+
+body {
+  background-color: var(--crema);
+  color: #3a2a20;
+}
+
+.navbar-cafe {
+  background-color: var(--cafe-oscuro);
+  border-bottom: 4px solid var(--acento);
+}
+.navbar-cafe .navbar-brand {
+  color: var(--crema);
+  letter-spacing: 0.5px;
+}
+
+.tarjeta-cafe {
+  border: 1px solid var(--cafe-claro);
+  border-top: 3px solid var(--acento);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(75, 46, 30, 0.08);
+  overflow: hidden;
+}
+.tarjeta-cafe .card-header {
+  background-color: var(--cafe-medio);
+  color: #fff;
+  font-weight: 600;
+}
+
+.form-label {
+  color: var(--acento);
+  font-weight: 500;
+}
+
+.btn-cafe {
+  background-color: var(--cafe-oscuro);
+  border-color: var(--cafe-oscuro);
+  color: #fff;
+}
+.btn-cafe:hover,
+.btn-cafe:focus {
+  background-color: var(--cafe-medio);
+  border-color: var(--cafe-medio);
+  color: #fff;
+}
+.btn-outline-cafe {
+  border-color: var(--cafe-medio);
+  color: var(--cafe-oscuro);
+}
+.btn-outline-cafe:hover {
+  background-color: var(--cafe-medio);
+  border-color: var(--cafe-medio);
+  color: #fff;
+}
+
+.form-control:focus {
+  border-color: var(--cafe-medio);
+  box-shadow: 0 0 0 0.2rem rgba(139, 90, 60, 0.25);
+}
+
+.tabla-cafe thead th {
+  background-color: var(--cafe-claro);
+  color: var(--cafe-oscuro);
+  border-bottom: 2px solid var(--cafe-medio);
+}
+.tabla-cafe tbody tr:hover {
+  background-color: rgba(217, 185, 155, 0.25);
+}
+
+.indicador {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 18px;
+  background-color: var(--crema);
+  border: 1px dashed var(--cafe-medio);
+  border-radius: 10px;
+}
+.indicador-etiqueta {
+  font-size: 0.85rem;
+  color: var(--cafe-medio);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.indicador-valor {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--acento);
+}
